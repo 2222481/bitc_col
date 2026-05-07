@@ -14,25 +14,39 @@
         <p>This is the contact page.</p>
 
         <form action="">
-            <input type="text" name="name" placeholder="Enter Your Name"required><br>
+
+            <label for="name"> Full Name:</label><br>
+           <input type="text" name="name" placeholder="Enter Your Name"required><br>
+            <label for="email"> Email:</label><br>
             <input type="email" name="email" placeholder="Enter Your Email"required><br>
+            <label for="phone"> Phone Number:</label><br>
             <input type="number" name="phone" placeholder="Enter Your Phone Number"required><br>
+            <label for="password"> Password:</label><br>
             <input type="password" name="password" placeholder="Enter Your Password"required><br>
-            <input type="date"name=" "placeholder="Enter Your Time of Birth"required><br>
-            <input type="color"name=" "placeholder="Enter Your Favourite Color"required><br>
-            <input type="range" name=" " placeholder="Enter Your Age"required><br>
-            <input type="url" name=" "placeholder="Enter Your Website URL"required><br>
-            <input type="search" name=" "placeholder="Search for something"required><br>
-            <input type="file" name=" "placeholder="Upload a file"required><br>
-           
+            <label for="dob"> Date of Birth:</label><br>
+            <input type="date"name="dob"placeholder="Enter Your Time of Birth"required><br>
+            <label for="color"> Favourite Color:</label><br>
+            <input type="color"name="color"placeholder="Enter Your Favourite Color"required><br>
+            <label for="age"> Age:</label><br>
+            <input type="range" name="age" placeholder="Enter Your Age"required><br>
+            <label for="website"> Website:</label><br>
+            <input type="url" name="website"placeholder="Enter Your Website URL"required><br>
+            <label for="search"> Search:</label><br>
+            <input type="search" name="search"placeholder="Search for something"required><br>
+            <label for="file"> Upload File:</label><br>
+            <input type="file" name="file"placeholder="Upload a file"required><br>
+
+            <label for="rating"> Rating:</label><br>
             <input type="radio" name="rating" value="1">1<br>
             <input type="radio" name="rating" value="2">2<br>
             <input type="radio" name="rating" value="3">3<br>
             <input type="radio" name="rating" value="4">4<br>
             <input type="radio" name="rating" value="5">5<br>
                
-             <input type="checkbox" name="Subscribe" value="yes">Subscribe to BBIT newsletter<br>
-            <input type="checkbox" name="Subscribe" value="yes">Subscibe to BICS newsletter<br>
+             <input type="checkbox" name="Subscribe" value="yes">
+             <label for="Subscribe">Subscribe to BBIT newsletter</label><br>
+            <input type="checkbox" name="Subscribe" value="yes">
+            <label for="Subscribe">Subscribe to BICS newsletter</label><br>
 
             <select name="country" required>
                 <option value="">Select Your Country</option>
